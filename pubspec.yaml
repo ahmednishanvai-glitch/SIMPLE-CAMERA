@@ -1,0 +1,17 @@
+name: simple_camera
+description: A simple Android camera app built with Flutter.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.0
+  flutter: ">=3.44.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  camera: ^0.12.2
+  gal: ^2.3.3
+
+flutter:
+  uses-material-design: true
